@@ -125,7 +125,27 @@ footer {
   width: 162px;
 }
 
-@media (min-width: 768px) {  
+@media (min-width: 768px) { 
+  
+  h2 {
+  font-family: Open Sans;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 2.5rem;  
+  line-height: 3.5rem;
+  letter-spacing: 0%;
+}
+
+h1 {
+  font-family: Luckiest Guy;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 2.5rem;  
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
   .block-1 h1 {
     font-family: Luckiest Guy;
     font-weight: 400;
@@ -149,15 +169,59 @@ footer {
   }
 
   .buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
 
-  gap: 1rem;
-}
+    gap: 1rem;
+  }
 
   .text {    
     justify-items: center;
+  }
+
+  .block-main-white, .block-main-grey {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;      
+  }
+
+  .block-main1, .block-main3 {
+    display: flex;
+    flex-direction: row;  
+    width: 60.68rem;
+    height: 24.625rem;
+    padding-bottom: 40px  
+  }
+
+  .block-main2 {
+    display: flex;
+    flex-direction: row-reverse;  
+    width: 60.68rem;    
+    padding-bottom: 40px  
+  }
+
+   .block-main4 {
+    display: flex;
+    flex-direction: column;  
+    width: 60.68rem;    
+    padding-bottom: 40px;
+    text-align: center;    
+  }
+
+  .desktop {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #desktop-image {
+    width: 37.93rem;
+    height: auto;
+  }
+
+  #desktop-image-bigger {
+    width: 49rem;
+    height: auto;
   }
 }
